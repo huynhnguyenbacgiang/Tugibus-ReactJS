@@ -1,0 +1,38 @@
+.search-card{
+    margin: auto;
+    max-width: 936px;
+    width: 100vw;
+    box-shadow: rgb(140 140 140) 4px 4px 20px 1px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    margin-top: 30px;
+    border-radius: 16px;
+    padding: 24px;
+}
+.search-form-group{
+    margin-right: 5px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgb(220, 225, 230);
+    border-radius: 6px;
+    min-width: 198px;
+}
+.search-form-button{
+    width: 70px;
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(78, 122, 153);
+    font-weight: bold;
+    border-color: rgb(78, 122, 153);
+}
+.search-form-button:hover{
+    background-color: rgb(102, 168, 212);
+    border-color: rgb(78, 122, 153);
+}
+@media only screen and (max-width: 1265px) {
+    .search-card {
+        width: 72vw;
+        min-width: 545px;
+    }
+}

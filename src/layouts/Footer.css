@@ -1,0 +1,68 @@
+.footer-wrap{
+    width: 100%;
+    border-bottom: none;
+    background-color: #f6f6f6;
+    border-top: 1px solid #f15a24;
+    margin-top: 4rem;
+}
+.footer-container{
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    max-width: 937px;
+}
+.blog-hotline{
+    padding-right: 35px;
+}
+.phone-title{
+    padding: 2rem 1rem 1rem 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    color: #637280;
+    text-transform: uppercase;
+    display: block;
+}
+.phoneNumber{
+    padding-left: 1rem;
+    font-size: 36px;
+    font-weight: 900;
+    color: #f15a24;
+    white-space: nowrap;
+}
+.ddk-image{
+    width: 128px!important;
+    height: 48px!important;
+    margin-bottom: 8px;
+    margin-left: 1rem;
+}
+.desc{
+    margin-bottom: 2rem;
+}
+.desc-tit{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    color: #f15a24;
+}
+.desc > p{
+    margin-bottom: 10px;
+    color: #637280;
+}
+.desc > p > a{
+    color: #00613d;
+    white-space: nowrap;
+    font-weight: 900;
+    text-decoration: none;
+}
+.sc-image{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 900px) {
+    .desc-tit {
+        font-size: 20px;
+    }
+  }
